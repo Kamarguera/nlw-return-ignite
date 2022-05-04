@@ -25,6 +25,14 @@ npm install -D tailwindcss postcss
 npm install -D tailwindcss postcss autoprefixer
 
 
+
+#tentando desbugar
+npm i (remover os pacotes do package json e deixar ele add denovo repetindo os comandos acima)
+
+ 
+
+npm install phosphor-react
+
 Componentes:
 Função que retorna HTML 
 
