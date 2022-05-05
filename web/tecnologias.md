@@ -32,7 +32,23 @@ npm i (remover os pacotes do package json e deixar ele add denovo repetindo os c
  
 
 npm install phosphor-react
+❯ npm install --save-dev tailwind-scrollbar
 
+❯ npm install -D @tailwindcss/forms
+
+
+  plugins: [
+
+    require('@tailwindcss/forms'),
+    require('tailwind-scrollbar'),
+
+
+  ],
+
+  ❯ npm install html2canvas
+
+
+  
 Componentes:
 Função que retorna HTML 
 
