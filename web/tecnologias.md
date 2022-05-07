@@ -68,3 +68,49 @@ Não pode ter varios componentes um embaixo do outtro, por exemplo tem de ter um
 
 
 
+
+
+
+
+#aula 3
+
+❯ npm i typescript @types/node ts-node-dev -D
+npx tsc --init
+
+tsconfig.json 
+
+"outdir": "./dist"
+"rootDir": "./src",
+
+
+npm i express
+
+npm i -D @types/express
+
+npm i prisma -D
+npm i @prisma/client
+
+npx prisma init 
+
+criar o banco de dados através do comando model
+npx prisma migrate dev
+
+❯ npm install nodemailer
+❯ npm install @types/nodemailer -D
+
+
+❯ npm install jest -D
+npx jest --init
+
+
+❯ npm install ts-node -D
+
+npm i -D jest @swc/jest
+npm i @types/jest -D
+
+npm i cors
+npm i types@/cors -D
+
+
+
+DATABASE_URL= "file:./dev.db"
